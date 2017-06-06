@@ -35,13 +35,75 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				});
 			});
 		</script>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- start-smooth-scrolling -->
 
 </head>
 <body>
 <!-- banner -->
 <div class="banner" id="home">
-	<div class="menu_box_list">
+<!-- <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  	<div class="menu_box_list">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	      	
+		        <li><a class="scroll" href="#home"><span>home</span></a></li>
+				<li><a class="scroll" href="#about"><span>about</span></a></li>
+				<li><a class="scroll" href="#skills"><span>skills</span></a></li>
+				<li><a class="scroll" href="#education"><span>education</span></a></li>
+				<li><a class="scroll" href="#work"><span>work</span></a></li> 
+				<li><a class="scroll" href="#services"><span>projects</span></a></li>
+				<li><a class="scroll" href="#contact"><span>contact</span></a></li>
+			</ul>
+		
+	      </ul>
+	    </div>
+	 </div>
+  </div>
+</nav>
+
+
+<!-- 	<div class="menu_box_list">
 		<ul>
 			<li><a class="scroll" href="#home"><span>home</span></a></li>
 			<li><a class="scroll" href="#about"><span>about</span></a></li>
@@ -49,10 +111,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<li><a class="scroll" href="#education"><span>education</span></a></li>
 			<li><a class="scroll" href="#work"><span>work</span></a></li> 
 			<li><a class="scroll" href="#services"><span>projects</span></a></li>
-			<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+			<li><a class="scroll" href="#contact"><span>contact</span></a></li>
 			<div class="clearfix"> </div>
 		</ul>
-	</div>
+	</div> -->
 	<div class="banner-info">
 			<div class= "banner-me">
 				<img src="images/me.png" alt=""/>
@@ -64,6 +126,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"></div>
 		</div>
 </div>
+
 <!--/header-banner-->
 
 <!--about-->
@@ -636,9 +699,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
 		</div>
 		<div class="contact-grids">
-			<div class="col-md-5 contact-left">
-				<h3>Information</h3>
-				<div class="stripb"></div>
+			<div class="col-md-4 contact-left">
+			</div>
+			<div class="col-md-4 contact-left">
+
+				<!-- <h3>Information</h3> -->
+				<!-- <div class="stripb"></div> -->
 				<ul>
 					<li>E301 CSE Building, PO </li>
 					<li>Box 116120, Gainesville, </li>
@@ -647,16 +713,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="mailto:isabel.laurenceau@gmail.com">isabel.laurenceau@gmail.com</a></li>
 				</ul>
 			</div>
-			<div class="col-md-7 contact-right">
-				<h3>Message</h3>
+			<!-- <div class="col-md-7 contact-right"> -->
+				<!-- <h3>Message</h3>
 				<div class="stripb"></div>
 				<form action="mailto:isabel.laurenceau@gmail.com">
 					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
 					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
 					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
 					<input type="submit" value="SEND">
-				</form>
-			</div>
+				</form> -->
+			<!-- </div> -->
 			<div class="clearfix"></div>
 		</div>
 	</div>
@@ -666,8 +732,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--resume-->
 <div class="resume text-center">
 	<div class="container">
-		<div class="strip text-center"><a href="https://github.com/isalau/isalau.github.io/raw/master/Resume_Isabel_Laurenceau.pdf"><img src="images/down.png" alt=" "/></a></div>
-		<div class="down"><a href="#">Download My Resume</a></div>
+		<div class="strip text-center"><a><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="https://github.com/isalau/isalau.github.io/raw/master/Resume_Isabel_Laurenceau.pdf">Download My Resume</a></div>
 	</div>
 </div>
 <!--//resume-->

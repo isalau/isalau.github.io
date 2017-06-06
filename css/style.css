@@ -126,12 +126,13 @@ a.boxclose{
 /*width:65%;
 margin: 141px auto 0 auto;*/
 }
+
 .banner-right h1{
-font-size:34px;
-font-weight:800;
-color:#ffffff;
-margin:35px 0 15px 0;
-letter-spacing: 15px;
+  font-size:34px;
+  font-weight:800;
+  color:#ffffff;
+  margin:35px 0 15px 0;
+  letter-spacing: 15px;
 }
 .banner-right h2{
   font-size: 50px;
@@ -140,27 +141,27 @@ letter-spacing: 15px;
   margin: 15px 0 45px 0;
 }
 .banner-right a{
-text-decoration:none;
-color:#ffffff;
-font-size:16px;
-font-weight:500;
-padding:16px 20px;
-border:2px solid #fff;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:16px;
+  font-weight:500;
+  padding:16px 20px;
+  border:2px solid #fff;
 }
 .banner-right a:hover{
-border:2px solid #000;
+  border:2px solid #000;
 }
 .banner-me{
-  padding: 20px 20px 20px 20px;
+  padding: 0px 0px 40px 0px;
 }
 
 
 .banner-me h1{
-font-size:34px;
-font-weight:800;
-color:#ffffff;
-margin:35px 0 20px 0;
-letter-spacing: 15px;
+  font-size:34px;
+  font-weight:800;
+  color:#ffffff;
+  margin:35px 0 20px 0; 
+  letter-spacing: 15px;
 }
 
 .banner-me h2{
@@ -170,15 +171,15 @@ letter-spacing: 15px;
   margin: 15px 0 45px 0;
 }
 .banner-me a{
-text-decoration:none;
-color:#ffffff;
-font-size:16px;
-font-weight:500;
-padding:16px 20px;
-border:2px solid #fff;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:16px;
+  font-weight:500;
+  padding:16px 20px;
+  border:2px solid #fff;
 }
 .banner-me a:hover{
-border:2px solid #000;
+  border:2px solid #000;
 }
 
 
@@ -1153,33 +1154,40 @@ width:30%;
 height:1px;
 margin: 0 0 40px 0;
 }
+.contact-left{
+  text-align: center
+}
 .contact-left ul{
-margin: 0px 0 0 0;
-padding:0;
+  margin: 0px 0 0 0;
+  padding:0;
 }
 .contact-left ul li{
-list-style-type:none;
-font-size:18px;
-color:#2b2b2b;
-font-weight:500;
-line-height:1.8em;
-font-family: 'Lato', sans-serif;
+  list-style-type:none;
+  font-size:18px;
+  color:#2b2b2b;
+  font-weight:500;
+  line-height:1.8em;
+  font-family: 'Lato', sans-serif;
+
 }
 .contact-left ul li a{
-text-decoration:none;
-color:#2b2b2b;
+  text-decoration:none;
+  color:#2b2b2b;
+  text-align: center;
 }
 .contact-left ul li a:hover{
-color:#ffffff;
+  color:#ffffff;
 }
 .contact-left ul li:nth-child(4) {
-font-size:20px;
+  font-size:20px;
   margin: 30px 0;
   font-weight: 800;
+  text-align: center;
 }
 .contact-left ul li:nth-child(6) {
-  margin: 30px 0 0 0;
+  margin: 0px 0 0 0;
   font-weight: 800;
+  text-align: center;
 }
 .contact-right input[type="text"]:hover,.contact-right textarea:hover {
 border:3px solid #40c4a4;
@@ -2286,11 +2294,15 @@ border:none;
 	.comment-icons ul li {
 	  margin: 12px 8px 12px 0;
 	  }
+
 	.menu_box_list li a {
 	  font-size: 14px;
+    text-align: center;
 	  }
+
 	.menu_box_list ul li {
 	  margin: 0 5px;
+    text-align: center;
 	}
 	.boxclose span {
 	  width: 30px;
