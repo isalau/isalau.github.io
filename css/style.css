@@ -150,6 +150,36 @@ border:2px solid #fff;
 .banner-right a:hover{
 border:2px solid #000;
 }
+
+
+
+.banner-me h1{
+font-size:34px;
+font-weight:800;
+color:#ffffff;
+margin:35px 0 15px 0;
+letter-spacing: 15px;
+}
+.banner-me h2{
+  font-size: 50px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 15px 0 45px 0;
+}
+.banner-me a{
+text-decoration:none;
+color:#ffffff;
+font-size:16px;
+font-weight:500;
+padding:16px 20px;
+border:2px solid #fff;
+}
+.banner-me a:hover{
+border:2px solid #000;
+}
+
+
+
 .banner-left{
 float:left;
 }
