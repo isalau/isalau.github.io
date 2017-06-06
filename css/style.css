@@ -150,14 +150,19 @@ border:2px solid #fff;
 .banner-right a:hover{
 border:2px solid #000;
 }
+.banner-me{
+  padding: 20px 20px 20px 20px;
+}
+
 
 .banner-me h1{
 font-size:34px;
 font-weight:800;
 color:#ffffff;
-margin:35px 0 15px 0;
+margin:35px 0 20px 0;
 letter-spacing: 15px;
 }
+
 .banner-me h2{
   font-size: 50px;
   font-weight: 300;
