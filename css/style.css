@@ -123,8 +123,8 @@ a.boxclose{
 	min-height:750px;
 }
 .banner-info{
-width:65%;
-margin: 141px auto 0 auto;
+/*width:65%;
+margin: 141px auto 0 auto;*/
 }
 .banner-right h1{
 font-size:34px;
@@ -150,8 +150,6 @@ border:2px solid #fff;
 .banner-right a:hover{
 border:2px solid #000;
 }
-
-
 
 .banner-me h1{
 font-size:34px;
