@@ -112,6 +112,11 @@ a.boxclose{
 	background: url(../images/into.png) no-repeat 0px 0px;
 }
 /*--/header--*/
+.headshot{
+  max-width: 25%;
+  height: auto;
+  border-radius: 75%;
+}
 /*--banner--*/
 .banner{
 	background: url(../images/banner.jpg) no-repeat 0px 0px;
