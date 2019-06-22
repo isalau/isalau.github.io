@@ -115,7 +115,7 @@ a.boxclose{
 .headshot{
   max-width: 25%;
   height: auto;
-  border-radius: 75%;
+  /*border-radius: 75%;*/
 }
 /*--banner--*/
 .banner{
@@ -133,14 +133,14 @@ margin: 141px auto 0 auto;*/
 }
 
 .banner-right h1{
-  font-size:34px;
+  font-size:50px;
   font-weight:800;
   color:#ffffff;
   margin:35px 0 15px 0;
   letter-spacing: 15px;
 }
 .banner-right h2{
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
   color: #ffffff;
   margin: 15px 0 45px 0;
@@ -162,7 +162,7 @@ margin: 141px auto 0 auto;*/
 
 
 .banner-me h1{
-  font-size:34px;
+  font-size:50px;
   font-weight:800;
   color:#ffffff;
   margin:35px 0 20px 0; 
@@ -170,7 +170,7 @@ margin: 141px auto 0 auto;*/
 }
 
 .banner-me h2{
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   color: #ffffff;
   margin: 15px 0 45px 0;
@@ -1993,7 +1993,7 @@ border:none;
 	  margin: 100px auto 0 auto;
 	}
 	.banner-right h1 {
-	  font-size: 30px;
+	  font-size: 50px;
 	  margin: 23px 0 15px 0;
 	  }
 	.banner-right h2 {
