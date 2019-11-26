@@ -1,9 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,38 +38,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <!-- banner -->
 <div class="banner" id="home">
-<!-- <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
-
   <div class="container-fluid">
   	<nav class="navbar navbar-default">
   	<div class="menu_box_list">
@@ -88,38 +50,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
-	      	
 		        <li><a class="scroll" href="#home"><span>home</span></a></li>
 				<li><a class="scroll" href="#about"><span>about</span></a></li>
-				<li><a class="scroll" href="#skills"><span>skills</span></a></li>
 				<li><a class="scroll" href="#education"><span>education</span></a></li>
 				<li><a class="scroll" href="#work"><span>work</span></a></li> 
-				<!-- <li><a class="scroll" href="#services"><span>projects</span></a></li> -->
 				<li><a class="scroll" href="#publications"><span>publications</span></a></li>
+			  	<li><a class="scroll" href="#publications"><span>interests</span></a></li>
 				<li><a class="scroll" href="#contact"><span>contact</span></a></li>
 			</ul>
-		
 	      </ul>
 	    </div>
 	 </div>
-  
 </nav>
 </div>
-<!-- 	<div class="menu_box_list">
-		<ul>
-			<li><a class="scroll" href="#home"><span>home</span></a></li>
-			<li><a class="scroll" href="#about"><span>about</span></a></li>
-			<li><a class="scroll" href="#skills"><span>skills</span></a></li>
-			<li><a class="scroll" href="#education"><span>education</span></a></li>
-			<li><a class="scroll" href="#work"><span>work</span></a></li> 
-			<li><a class="scroll" href="#services"><span>projects</span></a></li>
-			<li><a class="scroll" href="#contact"><span>contact</span></a></li>
-			<div class="clearfix"> </div>
-		</ul>
-	</div> -->
 	<div class="banner-info">
 			<div class= "banner-me">
-				<!-- <img src="images/HXR_photo.png" alt=""/> -->
 				<img class ="headshot" src="images/headshot2.JPG" alt=""/>
 				<h1>Isabel Laurenceau</h1>
 				<div class="border"></div>
@@ -130,7 +75,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"></div>
 		</div>
 </div>
-
 <!--/header-banner-->
 
 <!--about-->
@@ -148,67 +92,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--about-->
 
-<div class="about-back"></div>
-
-<!--my skill-->
-<div class="my-skills text-center" id="skills">
-	<div class="container">
-		<h3>My Skills</h3>
-		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
-		<div class="skill-grids">
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-1"></div>
-						<p>Swift</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-2"></div>
-						<p>C++</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-3"></div>
-						<p>Java</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-4"></div>
-						<p>Html 5 / CSS 3</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-5"></div>
-						<p>JavaScript</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-6"></div>
-						<p>PHP</p>
-					</div>
-					<div class="clearfix"> </div>
-				 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>
-								var colors = [
-										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
-									];
-								for (var i = 1; i <= 7; i++) {
-									var child = document.getElementById('circles-' + i),
-										percentage = ((7-i)*10) + 30;
-										// percentage = 30 + (i * 10); 
-									Circles.create({
-										id:         child.id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   	percentage / 1,
-										text:       '%',
-										colors:     colors[i - 1]
-									});
-								}
-						
-				</script>
-		</div>
-	</div>	
-</div>
-<!--//my skill-->
-<div class="my-skill-back"></div>
-
-
 <!--education-->
 <div class="education text-center" id="education">
 	<div class="container">
@@ -218,30 +101,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
 		<div class="edu-grids">
 			<div class="col-md-4 edu-grid">
-			</div>
-			<div class="col-md-4 edu-grid">
 				<p>2013 - 2017</p><span>Graduated</span>
-				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
 						<h3>BACHELOR DEGREE OF COMPUTER ENGINEERING</h3>
-						<h4>University of Florida</h4>
+						<h4>Cum Laude</h4>
 					</div>
 					<div class="edu-grid-info">
-						<h5>Cum Laude</h5>
+						<h5>University of Florida</h5>
 					</div>
 				</div>
 			</div>
-
+						<div class="col-md-4 edu-grid">
+				<p>2017 - </p><span>In Progress</span>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTER DEGREE OF COMPUTER ENGINEERING</h3>
+						<h4></h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>University of Florida</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2017 - </p><span>In Progress</span>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>DOCTORAL DEGREE OF COMPUTER SCIENCE</h3>
+						<h4></h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>University of Florida</h5>
+					</div>
+				</div>
+			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	
 </div>
+	
+	
 <!--//education-->
-<div class="strip-border"><p></p></div>
-
-
 <!--work-->
 <div class="work-experience text-center" id = "work">
 	<div class="container">
@@ -325,12 +226,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<h3>Publications</h3>
 		    <div class="col-md-4 w-grid">
             	<div class="work-grid">
-<!--             		<h3>2019</h3>
+             		<h3>2019</h3>
                     	<div class="work-grid-info">
                         	<h4>Inclusive Wearable Design: Developing a Set of Characteristics of Socially Acceptable 
 BCI Devices for Women</h4>
-                        	<p> France Jackson, Isabel Laurenceau, Juan E Gilbert </p>
-                		</div> -->
+                        	<p>France Jackson, Isabel Laurenceau, Juan E Gilbert https://doi.org/10.1201/9780429425905 </p>
+                		</div> 
 					<h3>2018</h3>
 				    	<div class="work-grid-info">
 				        	<h4>User perceptions of haptic fidgets on mobile devices for attention and task performance</h4>
@@ -338,6 +239,7 @@ BCI Devices for Women</h4>
 						</div>
 				</div>
 			</div>
+<!--
 			<link rel="stylesheet" href="css/swipebox.css">
 			<script src="js/jquery.swipebox.min.js"></script> 
 			<script type="text/javascript">
@@ -345,10 +247,32 @@ BCI Devices for Women</h4>
 					$(".swipebox").swipebox();
 				});
 			</script>
+-->
 	</div>
 </div>
 <!--//publications-->
 
+<!--Interests-->
+	<div class="interests" id="interests">
+		<div class="container">
+				<div class="text-center">
+					<h3>Interests</h3>
+					<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+				</div>
+			<!--Community Service-->
+			<h4>Community Service</h4>
+			<!--//Community Service-->
+			<!--GoodReads-->
+			<h4>GoodReads Reading List</h4>
+			<!--//GoodReads-->
+			<!--Research Readings-->
+			<h4>Scholarly Reading List</h4>
+			<!--//Research Readings-->
+		</div>
+	</div>
+
+<!--//Interests-->
+	
 <!--contact-->
 <div class="contact" id="contact">
 	<div class="container">
@@ -396,13 +320,7 @@ BCI Devices for Women</h4>
 </div> -->
 <!--//resume-->
 
-<!--footer-->
-<div class="footer">
-	<div class="container">
-		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
-	</div>
-</div>
-<!--//footer-->
+<!--footer--><!--//footer-->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
