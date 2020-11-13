@@ -1,465 +1,679 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Isabel Laurenceau</title>
-    <!-- Bootstrap -->
-    <link href="/isalau.github.io/css/bootstrap-4.3.1.css" rel="stylesheet">
-	  <link rel="stylesheet" href="https://use.typekit.net/sdj5aqc.css">
-    <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
-	  <style>
-      /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Isabel</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-<!--
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
--->
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-			<li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-			<li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-			<li class="nav-item">
-            <a class="nav-link" href="#publications">Publications</a>
-          </li>
-			<li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-			<li class="nav-item">
-            <a class="nav-link" href="#research">Research</a>
-          </li>
-<!--		<li class="nav-item">-->
-<!--            <a class="nav-link" href="#interests">Interests</a>-->
-<!--          </li>-->
-		<li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
-          </li>
-<!--
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
--->
+<head>
+<title>Isabel Laurenceau</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Client Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+	<!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	<!-- //css files -->
+
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<!-- //google fonts -->
+
+</head>
+<body>
+
+<!-- header -->
+<!-- <header>
+	<nav class="navbar">
+		<div class="container"> -->
+			<!-- <h1 class="wthree-logo">
+				<a href="index.html" id="logoLink"><i class="fa fa-adjust"></i> <span></span>Isabel</a>
+			</h1> -->
+
+			<!-- menu -->
+
+			<!-- //menu -->
+
+		<!-- </div>
+	</nav>
+</header> -->
+<!-- //header -->
+
+<!-- banner -->
+<div id="home" class="banner-w3pvt d-flex">
+	<div class="container">
+    <ul id="menu">
+      <li>
+        <input id="check02" type="checkbox" name="menu" />
+        <label for="check02"><span class="fa fa-bars" aria-hidden="true"></span></label>
+        <ul class="submenu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Publications</a></li>
+          <li><a href="#testimonials">Skill</a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
-<!--
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
--->
-      </div>
-    </nav>
-	<!--	  About Me Section-->
-    <section id = "aboutsection">
-      <div class="jumbotron text-center mt-2" id="about">
-        <div class="container">
-          <div class="row">
-			  <div class="col-md-6 col-12 text-center">
-				  <h1>Isabel Laurenceau</h1>
-				  <img class="img-fluid" src="isalau.github.io/images/social_media/png/headshot.jpg" alt="Headshot">
-			  </div>
-         		<div class="col-md-6 col-12 text-center">
-					<p>Welcome! My name is Isabel Laurenceau, I am twenty-five and originally from Miami, Florida. Currently I live in Gainesville, Florida where I am a third year Ph.D. student in Computer Science at the University of Florida. I work in the Human Experience Research Lab with my advisor Dr.Juan Gilbert. I received my Master's of Computer Engineering from the University of Florida in 2019. In 2017 I received my Bachelor of Science degree also from the University of Florida in Computer Engineering with minors in math and dance. My research focuses on affective wearable devices and tech policy.</p>
-					<p>
-				  		<a class="btn btn-primary btn-lg" href="https://github.com/isalau/isalau.github.io/raw/master/Resume_Isabel_Laurenceau.pdf" role="button">Download Resume</a>
-				  		<a class="btn btn-primary btn-lg" href="https://github.com/isalau/isalau.github.io/raw/master/Laurenceau_CV.pdf" role="button">Download CV</a>
-					</p>
-			  </div>
-            </div>
+      </li>
+    </ul>
+		<div class="row">
+			<div class="col-lg-7 bnr-txt-w3pvt">
+				<div class="bnr-w3pvt-txt mt-sm-5">
+
+          <!-- <h6> Hello!</h6> -->
+					<h2> Hello! <span>I'm Isabel Laurenceau, M.S</span></h2>
+					<h4>Ph.D. Student</h4>
+					<p class="mt-4"> </p>
+					<ul class="social_section_1info mt-4">
+						<!-- <li class="mb-2 facebook"><a href="#"><span class="fa fa-facebook"></span></a></li> -->
+						<li class="mb-2 twitter"><a href="www.twitter.com/isa_laurenceau"><span class="fa fa-twitter"></span></a></li>
+						<li class="linkedin"><a href="www.linkedin.com/isalau"><span class="fa fa-linkedin"></span></a></li>
+						<!-- <li class="pinterest"><a href="#"><span class="fa fa-pinterest"></span></a></li> -->
+					</ul>
+					<a href="https://github.com/isalau/isalau.github.io/raw/master/Laurenceau_CV.pdf" class="scroll bnr-btn mr-2">Download CV </a>
+          <a href="https://github.com/isalau/isalau.github.io/raw/master/Resume_Isabel_Laurenceau.pdf" class="scroll bnr-btn1">Download Resume</a>
+          <!-- <a href="#about" class="scroll bnr-btn mr-2">Read more </a> -->
+					<!-- <a href="#contact" class="scroll bnr-btn1">Contact Me </a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+
+<!-- about -->
+<section class="about" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-5 p-0">
+				<img src="images/about1.jpg" alt="" class="img-fluid" />
+			</div>
+			<div class="col-lg-6">
+				<div class="about-right">
+					<!-- <h4 class="main">Auctor sit amet aliquam vel, ulla amet.</h4> -->
+					<p>My name is Isabel Laurenceau, I am twenty-six and originally from Miami, Florida. I am a fourth year Ph.D. student in Computer Science at the University of Florida. I work in the Human Experience Research Lab with my advisor Dr.Juan Gilbert. I received my Master's of Computer Engineering from the University of Florida in 2019. In 2017 I received my Bachelor of Science degree also from the University of Florida in Computer Engineering with minors in math and dance. My research focuses on affective computing, wearable devices and tech policy.</p>
+					<div class="row mt-sm-5 mt-4 about-right-inner">
+						<div class="col-sm-4 col-6 myphoto-sign text-center">
+							<img src="images/graduation.jpg" alt="" class="img-fluid rounded-circle"/>
+							<!-- <img src="images/signature.png" alt="" class="img-fluid mt-3"/> -->
+							<!-- <a href="#contact" class="scroll abt-btn">Hire Me </a> -->
+						</div>
+						<div class="col-sm-7 offset-lg-1">
+							<h4>Personal Info</h4>
+              <p>I have been <strong>dancing</strong> since the age of three.</p>
+              <p>I am an avid <strong>coffee</strong> lover.</p>
+              <p>If I'm not working you can find me at my craft table <strong>sewing, hand lettering</strong>  or doing <strong> calligraphy.</strong></p>
+							<!-- <p>Hello, My name is <strong>John Watson</strong>. I am 6 years experienced <strong>web designer</strong></p> -->
+							<!-- <h4 class="mt-4">Skills & Abilities</h4>
+							<div class="progress-one mt-3">
+								<h4 class="progress-tittle">Web Designing</h4>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="progress-one my-lg-3">
+								<h4 class="progress-tittle">Photoshop</h4>
+								<div class="progress">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="progress-one">
+								<h4 class="progress-tittle">App Development</h4>
+								<div class="progress">
+									<div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3 class="position">About Me</h3>
+		</div>
+    </div>
+</section>
+<!-- //about -->
+
+<!-- services-->
+<section class="services pt-5" id="services">
+	<div class="container py-lg-5">
+		<!-- <p class="paragraph">What I do for you</p> -->
+		<h3 class="heading mb-sm-5 mb-4">Education</h3>
+		<div class="row">
+			<div class="col-lg-3 col-sm-6 mb-5">
+			   <div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s1.png" alt="" class="img-fluid" /> -->
+					<h3>High School</h3>
+					<h4 class="mt-3">Dance</h4>
+					<p class="mt-3">New World School of the Arts</p>
+          <p class="mt-3">2009-2013</p>
           </div>
-        </div>
-    </section>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mb-5">
+			   <div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s2.png" alt="" class="img-fluid" /> -->
+					<h3>Bachelor Degree</h3>
+					<h4 class="mt-3">Computer Engineering</h4>
+					<!-- <p class="mt-3">Vivamus suscipit tortort eget felis porttitorit elit volutpat. Mauris blandit aliquet elit dolor.</p> -->
+          <p class="mt-3"> University of Florida</p>
+          <p class="mt-3"> Cum Laude </p>
+          <p class="mt-3">Minors: Math, Dance</p>
+          <p class="mt-3">2013-2017</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mb-5">
+			   <div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s3.png" alt="" class="img-fluid" /> -->
+					<h3>Master Degree</h3>
+					<h4 class="mt-3">Computer Engineering </h4>
+					<!-- <p class="mt-3">Vivamus suscipit tortort eget felis porttitorit elit volutpat. Mauris blandit aliquet elit dolor.</p> -->
+          <p class="mt-3">University of Florida</p>
+          <p class="mt-3"> 2017-2019</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mb-5">
+				<div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s4.png" alt="" class="img-fluid" /> -->
+					<h3>In Progress: Doctorate Degree</h3>
+					<h4 class="mt-3">Computer Science</h4>
+          <p class="mt-3">University of Florida</p>
+          <p class="mt-3">2017-</p>
+					<!-- <p class="mt-3">Vivamus suscipit tortort eget felis porttitorit elit volutpat. Mauris blandit aliquet elit dolor.</p> -->
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //services -->
 
-	<!--	  Education Section-->
-	<section id="educationSection">
+<!-- process -->
+<section class="experience py-5" id="experience">
+	<div class="container py-3">
+		<!-- <p class="paragraph">work experience</p> -->
+		<h3 class="heading mb-sm-5 mb-4">My Experience</h3>
+		<div class="middile-inner-con">
+			<div class="tab-main mx-auto">
 
-		<div class="container-fluid blue-bg">
-			<div class="container">
-				<h2 class="col-12 text-center">Education</h2>
-    				<!--first section-->
-					<div class="row align-items-center how-it-works">
-						<div class="col-2 text-center bottom">
-							<div class="circle">1</div>
+				<input id="tab1" type="radio" name="tabs" checked>
+				<!-- <label for="tab1"><img src="images/s1.png" alt="" class="img-fluid" /> Company Name 1</label> -->
+
+				<!-- <input id="tab2" type="radio" name="tabs">
+				<label for="tab2"><img src="images/s2.png" alt="" class="img-fluid" /> Company Name 2</label>
+
+				<input id="tab3" type="radio" name="tabs">
+				<label for="tab3"><img src="images/s4.png" alt="" class="img-fluid" /> Company Name 3</label> -->
+
+				<section id="content1">
+					<div class="menu-grids">
+						<div class="t-in">
+							<div class="text-info-sec">
+								<div class="service-in text-left">
+									<div class="card" >
+										<div class="card-body p-0">
+										<!-- <img src="images/s1.png" alt="" class="img-fluid"/>
+										<img src="images/s2.png" alt="" class="img-fluid"/>
+										<img src="images/s3.png" alt="" class="img-fluid"/> -->
+											<!-- <h3 class="mb-md-4">Company Name</h3> -->
+											<!-- <h5 class="my-3 card-title" data-aos="fade-left">Creative Director in some X Company (2001 to 2002)</h5> -->
+											<p class="card-text" data-aos="fade-left"> For the past three years, Isabel has primarily been a graduate student at the University of Florida. She has spent her summers as a Media Democracy Fund Technology Policy Fellow. Through this, Isabel has gained experience working at two extraordinary non-profits in D.C. Most recently, she worked at <a href="https://civilrights.org">The Leadership Conference on Civil and Human Rights</a> with their 2020 Census team. There she worked to create and disseminate digital literacy information for their <a href="https://censuscounts.org.gotc-toolkit)">Get Out The Count ToolKi</a>t and around mis/disinformation. She also worked closely with the team and partners on discussion on differential privacy to be used in the 2020 Census. In 2018 she was at <a href="https://www.publicknowledge.org">Public Knowledge</a> working on Net Neutrality issues. Isabel wrote internal documents about HIPAA and open source licenses. She also wrote a blog post about the effects on the proposed European copyright directive on game creators found <a href="https://www.publicknowledge.org/news-blog/blogs/how-europes-new-copyright-directive-targets-your-favorite-mods">here</a>. She aided other interns in research for their blog posts. </p>
+
+            			  	<p class="card-text" data-aos="fade-left">Throughout her time as an undergraduate, Isabel worked on campus at the <a href="https://labs.at.ufl.edu">Academic Technology Labs</a> where she served as Supervisor for her last two years with the company. She had two internships as an undergraduate. The final was as an iOS developer with <a href="https://www.statefarm.com/careers/become-an-employee/career-areas/technology-and-user-experience-careers">State Farm</a> in Atlanta, Georgia, and the first was with <a href="http://www.southernglazers.com">Southern Wine & Spirits</a> in their IT department.  </p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="col-6 col-xl-5">
-							<h5>Bachelor's Degree</h5>
-							<p>Computer Engineering; Cum Laude</p>
-							<p>University of Florida</p>
-							<p>Minors: Math, Dance</p>
-							<p>2013-2017</p>
+					</div>
+				</section>
 
+				<!-- <section id="content2">
+					<div class="menu-grids">
+						<div class="t-in">
+							<div class="text-info-sec">
+								<div class="service-in text-left">
+									<div class="card">
+										<div class="card-body p-0">
+										<img src="images/s2.png" alt="" class="img-fluid" />
+										<img src="images/s3.png" alt="" class="img-fluid" />
+										<img src="images/s4.png" alt="" class="img-fluid" />
+											<h3 class="mb-md-4">Company Name</h3>
+											<h5 class="my-3 card-title">UI Developer in some y Company (2002 to 2006)</h5>
+											<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor
+											incididunt ut labore. Mauris elementum tortor a nisl aliquet fringilla. Donec et risus augue. Proin
+											sit amet maximus dui. Vivamus lacinia nisi tempor ligula sagittis vehicula.</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-							<!-- Modal -->
-							<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Interesting Undergraduate Classes</button>
-                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLabel">Interesting Undergraduate Classes</h5>
-                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                      </button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <p>American Federal Government </p>
-                                      <p>Comparative Politics </p>
-                                      <p>Intro To Computer Organization</p>
-                                      <p>Circuits 1</p>
-                                      <p>Digital Logic</p>
-                                      <p>Intro to Number Theory</p>
-                                      <p>iOS Development with Swift</p>
-                                      <p>Intro to Numberical Analysis</p>
-                                      <p>Information & Databases Systems</p>
-                                      <p>Microprocessor Applications</p>
-                                      <p>Undergraduate Research</p>
-                                      <p>User Experience and Design </p>
-                                      <p>Intro to Signals & Systems</p>
-                                      <p>Digital Design</p>
-                                      <p>Computer Aided Graphics & Design</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-			  </div>
-
-
-
-    			<!--path between 1-2-->
-				<div class="row timeline">
-					<div class="col-2">
-						<div class="corner top-right"></div>
 					</div>
-					<div class="col-8">
-						<hr/>
+				</section>
+
+				<section id="content3">
+					<div class="menu-grids">
+						<div class="t-in">
+							<div class="text-info-sec">
+								<div class="service-in text-left">
+									<div class="card">
+										<div class="card-body p-0">
+											<img src="images/s4.png" alt="" class="img-fluid" />
+											<img src="images/s5.png" alt="" class="img-fluid" />
+											<img src="images/s6.png" alt="" class="img-fluid" />
+											<h3 class="mb-md-4">Company Name</h3>
+											<h5 class="my-3 card-title">Mobile App Developer in some z Company (2006 to 2008)</h5>
+											<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor
+											incididunt ut labore. Mauris elementum tortor a nisl aliquet fringilla. Donec et risus augue. Proin
+											sit amet maximus dui. Vivamus lacinia nisi tempor ligula sagittis vehicula.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-2">
-						<div class="corner left-bottom"></div>
+				</section> -->
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //process -->
+
+<!-- services-->
+<section class="services pt-5" id="skills">
+	<div class="container py-lg-5">
+		<!-- <p class="paragraph">What I do for you</p> -->
+		<h3 class="heading mb-sm-5 mb-4">Skills</h3>
+		<div class="row">
+			<div class="col-lg-3 col-sm-6 mb-5">
+			   <div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s1.png" alt="" class="img-fluid" /> -->
+					<h3>01</h3>
+          <h4 class="mt-3">Programming Languages</h4>
+          <div>
+            <p class="mt-3">C++</p>
+            <p class="mt-3">Swift</p>
+            <p class="mt-3">Java</p>
+            <p class="mt-3">HTML</p>
+            <p class="mt-3">CSS</p>
+          </div>
+          <div>
+            <p class="mt-3">JavaScript</p>
+            <p class="mt-3">PHP</p>
+            <p class="mt-3">SQL</p>
+            <p class="mt-3">C</p>
+            <p class="mt-3">VHDL</p>
+          </div>
+
+
+          </div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mb-5">
+			   <div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s2.png" alt="" class="img-fluid" /> -->
+					<h3>02</h3>
+					<h4 class="mt-3">UI/UX Skills</h4>
+					<!-- <p class="mt-3">Vivamus suscipit tortort eget felis porttitorit elit volutpat. Mauris blandit aliquet elit dolor.</p> -->
+          <p class="mt-3"> Interviews</p>
+          <p class="mt-3"> Focus Groups</p>
+          <p class="mt-3"> Affinity Diagramming</p>
+          <p class="mt-3"> Wireframing</p>
+          <p class="mt-3"> Balasmiq</p>
+          <p class="mt-3"> Adobe Suite</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mb-5">
+			   <div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s3.png" alt="" class="img-fluid" /> -->
+					<h3>03</h3>
+					<h4 class="mt-3">Operating Systems </h4>
+					<!-- <p class="mt-3">Vivamus suscipit tortort eget felis porttitorit elit volutpat. Mauris blandit aliquet elit dolor.</p> -->
+          <p class="mt-3">Mac</p>
+          <p class="mt-3"> Windows</p>
+          <p class="mt-3"> Linux/Unix</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mb-5">
+				<div class="panel panel-default">
+				  <div class="panel-thumbnail">
+					<!-- <img src="images/s4.png" alt="" class="img-fluid" /> -->
+					<h3>04</h3>
+					<h4 class="mt-3">Development Tools</h4>
+          <p class="mt-3">Git</p>
+          <p class="mt-3">InVision</p>
+          <p class="mt-3">Android Studio</p>
+          <p class="mt-3">Agile Methods</p>
+          <p class="mt-3">Mean Stack</p>
+          <p class="mt-3">Bootstrap</p>
+
+					<!-- <p class="mt-3">Vivamus suscipit tortort eget felis porttitorit elit volutpat. Mauris blandit aliquet elit dolor.</p> -->
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //services -->
+
+<!-- quote -->
+<!-- <section class="quote py-5">
+	<div class="container py-lg-5">
+		<div class="row">
+			<div class="col-lg-8">
+				<h4>" I've worked with some X company for several years and that is the best company in the Market. Mauris elementum tortor a nisl
+				aliquet fringilla. Donec et risus augue. Proin sit amet maximus dui Vivamus lacinia nisi tempor ligula sagittis vehicula."</h4>
+				<h5>designer - developer - freelancer</h5>
+				<img src="images/signature.png" alt="" class="img-fluid"/>
+			</div>
+		</div>
+	</div>
+</section> -->
+<!-- //quote -->
+
+<!-- portfolio -->
+<!-- <section class="portfolio py-5" id="portfolio">
+	<div class="container py-lg-5">
+		<p class="paragraph">My recent Work</p>
+		<h3 class="heading mb-sm-5 mb-4">Portfolio</h3>
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio1.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 1</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
 					</div>
 				</div>
-    			<!--second section-->
-				<div class="row align-items-center justify-content-end how-it-works">
-					<div class="col-2 col-xl-4">
-					<!-- Modal -->
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#gradModal">Interesting Graduate Classes</button>
-                        <div class="modal fade" id="gradModal" tabindex="-1" role="dialog" aria-labelledby="gradModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="gradModalLabel">Interesting  Graduate Classes</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                               	<p>Adavanced Data Structures</p>
-                  					<p>Human Computer Interactions</p>
-                                    <p>Research Methods For Human Centered Computing</p>
-                                    <p>Public Policy Analysis</p>
-                                    <p>Statistical Methods for Research</p>
-                                    <p>Computer Networks</p>
-                                    <p>Analysis of Algorithms</p>
-                                    <p>Computer Architecture Principles</p>
-                                    <p>Distributed Operating Systems Principles</p>
-                                    <p>Natural User Interactions</p>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio2.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 2</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
 					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio3.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 3</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio4.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 4</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio5.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 5</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio1.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 6</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-					<div class="col-6 text-right col-xl-4 offset-xl-0">
-					  <h5>Master's Degree</h5>
-						<p>Computer Engineering</p>
-						<p>University of Florida</p>
-						<p>2017-2019</p>
-					</div>
-					<div class="col-2 text-center full">
-					  <div class="circle">2</div>
-					</div>
-				</div>
-    			<!--path between 2-3-->
-				<div class="row timeline">
-					<div class="col-2">
-						<div class="corner right-bottom"></div>
-					</div>
-					<div class="col-8">
-						<hr/>
-					</div>
-					<div class="col-2">
-						<div class="corner top-left"></div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio2.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 7</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
 					</div>
 				</div>
-				<!--third section-->
-				<div class="row align-items-center how-it-works">
-					<div class="col-2 text-center top">
-						<div class="circle">3</div>
-					</div>
-					<div class="col-6 col-xl-4">
-						<h5>In Progress: Doctorate's Degree</h5>
-						<p>Computer Science</p>
-						<p>University of Florida</p>
-						<p>2017-</p>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio3.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 8</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	  </section>
+	</div>
+</section> -->
+<!-- //portfolio -->
+
+<!--clients-->
+<section class="client py-5" id="testimonials">
+  <div class="container py-lg-5">
+		<!-- <p class="paragraph">what clients say</p> -->
+		<h3 class="heading mb-sm-5 mb-4">Publications</h3>
+		  <div class="row client-slider-slide">
+
+        <div class="col-lg-6 col-md-6 w3layouts-txt-says mb-md-0 mb-5">
+  			  <div class="clients-info-grid">
+  				<p>Wyrosdick, B., Laurenceau, I. Gilbert, J.E. (2020). An Application for Absentee Voter Verification, In Proceedings of The 14th International Multi-Conference on Society, Cybernetics and Informatics, Virtual Conference, pp. 121-125. </p>
+  				<div class="row">
+  					<div class="col-lg-2 col-3 pr-0 img-position mt-3">
+  					  <!-- <img src="images/t1.png" alt="" class="img-fluid"> -->
+  					</div >
+  					<div class=" col-lg-10 col-9 clients-txt-info">
+  					  <!-- <h4 class="mt-4">John Herd</h4> -->
+  					  <!-- <p>Graphic Designer</p> -->
+  					</div>
+  				  </div>
+  			  </div>
+  			</div>
 
 
-	  <!--	  Experience Section-->
-	  <section>
-      <div class="container" id="experience">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Experience</h2>
-			  <img src="images/Experience.png" alt="" width="1364" height="768" class="rounded img-fluid"/>
-			  <p></p>
-			  <p></p>
-			  <p></p>
-			  <div>
-			   	<p> For the past three years, Isabel has primarily been a graduate student at the University of Florida. She has spent her summers as a Media Democracy Fund Technology Policy Fellow. Through this, Isabel has gained experience working at two extraordinary non-profits in D.C. Most recently, she worked at <a href="https://civilrights.org">The Leadership Conference on Civil and Human Rights</a> with their 2020 Census team. There she worked to create and disseminate digital literacy information for their <a href="https://censuscounts.org.gotc-toolkit)">Get Out The Count ToolKi</a>t and around mis/disinformation. She also worked closely with the team and partners on discussion on differential privacy to be used in the 2020 Census. In 2018 she was at <a href="https://www.publicknowledge.org">Public Knowledge</a> working on Net Neutrality issues. Isabel wrote internal documents about HIPAA and open source licenses. She also wrote a blog post about the effects on the proposed European copyright directive on game creators found <a href="https://www.publicknowledge.org/news-blog/blogs/how-europes-new-copyright-directive-targets-your-favorite-mods">here</a>. She aided other interns in research for their blog posts. </p>
-
-			  	<p>Throughout her time as an undergraduate, Isabel worked on campus at the <a href="https://labs.at.ufl.edu">Academic Technology Labs</a> where she served as Supervisor for her last two years with the company. She had two internships as an undergraduate. The final was as an iOS developer with <a href="https://www.statefarm.com/careers/become-an-employee/career-areas/technology-and-user-experience-careers">State Farm</a> in Atlanta, Georgia, and the first was with <a href="http://www.southernglazers.com">Southern Wine & Spirits</a> in their IT department.  </p>
+			<div class="col-lg-6 col-md-6 w3layouts-txt-says mb-md-0 mb-5">
+			  <div class="clients-info-grid">
+				<p>Jackson, F., Laurenceau, I. & Gilbert, J.E. (2019). Inclusive Wearable Design: Developing a Set of Characteristics of Socially Acceptable BCI Devices for Women. In Roscoe, R.D., Chiou, E.K. & Wooldridge, A.R. (Eds.), Advancing Diversity, Inclusion, and Social Justice Through Human Systems Engineering, CRC Press, pp. 171-190. </p>
+				<div class="row">
+					<div class="col-lg-2 col-3 pr-0 img-position mt-3">
+					  <!-- <img src="images/t1.png" alt="" class="img-fluid"> -->
+					</div >
+					<div class=" col-lg-10 col-9 clients-txt-info">
+					  <!-- <h4 class="mt-4">John Herd</h4> -->
+					  <!-- <p>Graphic Designer</p> -->
+					</div>
+				  </div>
 			  </div>
-
-
-          </div>
-          </div>
-        </div>
-    </section>
-
-	  <!--	  Publications Section-->
-		<section>
-      <div class="container" id="publications">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Publications</h2>
-            <p>Jackson, F., Laurenceau, I. & Gilbert, J.E. (2019). Inclusive Wearable Design: Developing a Set of Characteristics of
-Socially Acceptable BCI Devices for Women. In Roscoe, R.D., Chiou, E.K. & Wooldridge, A.R. (Eds.), Advancing
-Diversity, Inclusion, and Social Justice Through Human Systems Engineering, CRC Press, pp. 171-190.</p>
-			  <p>Williams, A., Posadas, B., Prioleau, D., Laurenceau, I., & Gilbert, J. E. (2019). User perceptions of haptic fidgets on
-mobile devices for attention and task performance. In Advances in Intelligent Systems and Computing (Vol. 776,
-pp.15–22). Springer Verlag. https://doi.org/10.1007/978-3-319-94622-1_2</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-		  <!--	  Research Section-->
-		<section>
-      <div class="container" id="research">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Research</h2>
-			  <!--	  sub what I'm reading Section-->
-            <p>Wearable Technology, Affective Computing, Mobile Development, Human Centered Computing, Human Computer Interaction, User Experience and Design</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-	 <!--	  Skills Section-->
-	<section>
-      <div class="container" id="skills">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Skills</h2>
-		    <img src="images/Skills.png" alt="" width="1156" height="1124" class="img-fluid rounded"/>
-             <!--
-              <p><strong>Programming Languages:</strong>C++, Swift, Java, HTML, CSS, JavaScript, PHP, SQL, C, VHDL</p>
-              <p><strong>Operating Systems:</strong> Mac OS X, Windows, Linux/Unix</p>
-              <p><strong>UI/UX Skills</strong>  Interviews, Focus Groups, Affinity Diagramming, Wireframing, Balsamiq </p>
-              <p><strong>Development Tools:</strong> InVision, Xcode, Android Studio, Agile Methods, Git, Mean Stack, Bootstrap</p>
-		-->
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-	  <!--	  Interests Section-->
-<!--		<section>-->
-<!--      <div class="container" id="interests">-->
-<!--        <div class="row">-->
-<!--          <div class="col-12 text-center">-->
-<!--            <h1>Interest</h1>-->
-<!--			  Community Service-->
-<!--			  Reading List-->
-<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
-
-
-	<!-- Contact Me Section-->
-	<section>
-      <div class="container mt-2" id="contact">
-        <div class="row">
-			<div class="col-12 text-center">
-				<h2>Contact Me</h2>
 			</div>
-          <div class="col-4">
 
-          </div>
-		<div class="col-1">
-			  <a href="https://www.linkedin.com/in/isalau"><img class="img-social_media" src="isalau.github.io/images/social_media/png/027-linkedin.png"  style="width:40px; height:40px" alt="LinkedIn" ></a>
-			  <br /><a href="https://twitter.com/isa_laurenceau"><img class="img-social_media" src="isalau.github.io/images/social_media/png/008-twitter.png"  style="width:40px; height:40px" alt="Twitter" ></a>
-			  <br /><a href="https://www.github.com/isalau"><img class="img-social_media" src="isalau.github.io/images/social_media/png/github.png" style="width:40px; height:40spx" alt="gitHub" ></a>
-          </div>
-          <div class="col-3">
-			  <address class="text-left">
-              	<a href="mailto:isabel.laurenceau@gmail.com"><strong>isabel.laurenceau@gmail.com</strong></a><br>
-              	E301 CSE Building, PO <br>
-				Box 116120, Gainesville,<br>
-				FL 32611<br>
-              	<abbr title="Phone">Cell:</abbr> (305) 972-6009
-			  </address>
-          </div>
+      <div class="col-lg-6 col-md-6 w3layouts-txt-says">
+			  <div class="clients-info-grid">
+				<p>Williams, A., Posadas, B., Prioleau, D., Laurenceau, I., & Gilbert, J. E. (2019). User perceptions of haptic fidgets on mobile devices for attention and task performance. In Advances in Intelligent Systems and Computing (Vol. 776, pp.15–22). Springer Verlag. https://doi.org/10.1007/978-3-319-94622-1_2 </p>
+				<div class="row">
+					<div class="col-lg-2 col-3 pr-0 img-position mt-3">
+					  <!-- <img src="images/t2.png" alt="" class="img-fluid"> -->
+					</div >
+					<div class="col-lg-10 col-9 clients-txt-info">
+					  <!-- <h4 class="mt-4">Mickey</h4>  -->
+					  <!-- <p>Graphic Designer</p> -->
+					</div>
+				  </div>
+			  </div>
+			</div>
 
-		  <div class="col-4">
+		  </div>
+	</div>
+</section>
+<!--//clients-->
 
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!--
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Latest Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-12 text-center">
-            <img class="img-fluid" src="images/400x400.gif" alt="">
-            <h4>Lorem ipsum dolor sit amet, consectetur elit</h4>
-            <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
-          </div>
-          <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
-            <img class="img-fluid" src="images/400x400.gif" alt="">
-            <h4>Lorem ipsum dolor sit amet, consectetur elit</h4>
-            <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
-          </div>
-        </div>
-        <div class="row mt-2">
-          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
-            <button type="button" class="btn btn-success">Get in touch</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">WHO WE ARE</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, ducimus, sit, quibusdam quidem recusandae veniam eos quod error nisi repellat excepturi laboriosam aspernatur suscipit possimus consectetur dolores nihil labore quas eius illo accusamus nulla sed blanditiis porro accusantium. Perspiciatis, perferendis!</p>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">Contact Me</h3>
-            <address class="text-center">
-              <strong>MyCompany, Inc.</strong><br>
-              Sunny Autumn Plaza, Grand Coulee,<br>
-              CA, 91308-4075, US<br>
-              <abbr title="Phone">P:</abbr> (123) 456-7890
-            </address>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">NEWSLETTER</h3>
-            <form>
-              <div class="form-group col-12">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                <button type="submit" class="btn btn-dark mt-2">Subscribe</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+<!-- Contact -->
+<section class="contact py-5" id="contact">
+	<div class="container py-lg-5">
+		<!-- <p class="paragraph">Get in touch with me</p> -->
+		<h3 class="heading mb-sm-5 mb-4">Get In Touch</h3>
+    <div class="row">
+      <div class="col-lg-8">
+    <div class="col-lg-7 my-lg-0 my-4">
+      <p><span class="fa mr-2 fa-map-marker"></span>E301 CSE Building, PO Box 116120, Gainesville, FL 32611</p>
+      <p class="mt-2"><span class="fa mr-2 fa-envelope"></span><a href="mailto:isalau@me.com">isalau@me.com</a>, <span class="fa ml-3 mr-2 fa-phone"></span>1-305-972-6009</p>
     </div>
-    -->
-	<hr>
+    <div class="col-lg-3 copy-right p-0 text-lg-right">
 
-    <footer class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <p>Isabel Laurenceau. Updated March 2020</p>
-			  <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+    </div>
+  </div>
+  <section class="w3layouts-map col-lg-4 mt-lg-0 mt-5">
+ <p>Follow me on social media</p>
+ <div class="text-center">
+ <ul class="social_section_1info">
+   <!-- <li class="mb-2 facebook"><a href="#"><span class="fa fa-facebook"></span></a></li> -->
+   <li class="mb-2 twitter"><a href="#"><span class="fa fa-twitter"></span></a></li>
+   <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+   <!-- <li class="pinterest"><a href="#"><span class="fa fa-pinterest"></span></a></li> -->
+ </ul>
+</div>
+</section>
+</div>
+		<!-- <div class="contact-form">
+			<div class="row">
+				<div class="col-lg-8">
+					<form name="contactform" id="contactform" method="post" action="#" onsubmit="return(validate());" novalidate="novalidate">
+						<div class="row">
+							<div class="form-group col-md-6 ">
+							  <label>Name</label>
+							  <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+							</div>
+							<div class="form-group col-md-6">
+							  <label>Email</label>
+							  <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+							</div>
+							<div class="form-group col-md-6">
+							  <label>Phone No.</label>
+							  <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+							</div>
+							<div class="form-group col-md-6">
+							  <label>Subject</label>
+							  <input type="text" class="form-control" id="subject" placeholder="Enter Subject" name="phone">
+							</div>
+							<div class="form-group col-12">
+							  <label>Message</label>
+							  <textarea name="issues" class="form-control" id="iq" placeholder="Enter Your Message Here"></textarea>
+							</div>
+							<button type="submit" class="btn btn-default">Submit </button>
+						</div>
+					</form>
+				</div>
+				<section class="w3layouts-map col-lg-4 mt-lg-0 mt-5">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555" allowfullscreen=""></iframe>
+				</section>
+			</div>
+		</div> -->
+	</div>
+</section>
+<!-- //Contact -->
 
-			  <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<!-- footer -->
+<!-- <footer class="py-lg-5 py-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2">
+				<h3 class="wthree-logo mt-3">
+					<a href="index.html" id="logoLink1"><span class="fa fa-adjust"></span> <span>C</span>lient</a>
+				</h3>
+			</div>
+			<div class="col-lg-7 my-lg-0 my-4">
+				<p><span class="fa mr-2 fa-map-marker"></span>2130 Fulton Street, San Diego, CA 94117-1080 USA</p>
+				<p class="mt-2"><span class="fa mr-2 fa-envelope"></span><a href="mailto:info@example.com">info@example.com</a>, <span class="fa ml-3 mr-2 fa-phone"></span>1-600-1234-567</p>
+			</div>
+			<div class="col-lg-3 copy-right p-0 text-lg-right">
 
-			  <div>Education Timeline: <span>See the Pen <a href="https://codepen.io/cplepage/pen/EozVXL/"> Vertical Left and Right Timeline</a> by CP Lepage (<a href="https://codepen.io/cplepage">@cplepage</a>) on <a href="https://codepen.io">CodePen</a>.</span></div>
+				<p>Follow me on social media</p>
+				<ul class="social_section_1info">
+					<li class="mb-2 facebook"><a href="#"><span class="fa fa-facebook"></span></a></li>
+					<li class="mb-2 twitter"><a href="#"><span class="fa fa-twitter"></span></a></li>
+					<li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+					<li class="pinterest"><a href="#"><span class="fa fa-pinterest"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer> -->
+<!-- //footer -->
 
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.3.1.js"></script>
-  </body>
+<!-- copyright -->
+<div class="copyright py-3 text-center">
+	<div class="container">
+		<p class="my-2">© 2019 Client. All rights reserved | Design by
+			<a href="http://w3layouts.com"> W3layouts.</a>
+		</p>
+	</div>
+</div>
+<!-- copyright -->
+
+<!-- move top -->
+<div class="move-top text-right">
+	<a href="#home" class="move-top">
+		<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+	</a>
+</div>
+<!-- move top -->
+
+</body>
 </html>

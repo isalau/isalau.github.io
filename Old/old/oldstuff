@@ -1,0 +1,79 @@
+
+
+
+
+
+								<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav-->
+			<!-- <div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div> -->
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<!-- <div class="box_content">        					                          -->
+						<!-- <div class="box_content_center"> -->
+							<!-- <div class="form_content"> -->
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#services"><span>projects</span></a></li>
+ 										<!-- <li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
+										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
+										<li><a class="scroll" href="#blog"><span>blog</span></a></li>  -->
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<!-- <a class="boxclose" id="boxclose"> <span> </span></a> -->
+							<!-- </div>                                   -->
+						<!-- </div> 	 -->
+					<!-- </div>  -->
+				</div>       	  
+			</div>
+			<!-- start-click-drop-down-menu -->
+			        <!-- start-dropdown -->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!-- End-click-drop-down-menu -->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+			</div>
+			<div class="banner-right">
+				<img src="images/me.png" alt=""/>
+				<h1>ISABEL LAURENCEAU</h1>
+				<div class="border"></div>
+				<h2>GRADUATE STUDENT</h2>
+				<a href="https://github.com/isalau/isalau.github.io/raw/master/Resume_Isabel_Laurenceau.pdf">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
